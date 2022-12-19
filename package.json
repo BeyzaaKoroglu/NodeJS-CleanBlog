@@ -1,0 +1,30 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "Clean Blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeyzaaKoroglu/NodeJS-CleanBlog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Beyza Koroglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeyzaaKoroglu/NodeJS-CleanBlog/issues"
+  },
+  "homepage": "https://github.com/BeyzaaKoroglu/NodeJS-CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
