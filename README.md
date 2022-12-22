@@ -3,6 +3,7 @@
 ### Dependencies
 - Ejs
 - Express
+- Mongoose
 
 ### DevDependencies
 - Nodemon
