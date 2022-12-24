@@ -69,6 +69,14 @@
       </div>
     </div>
   </article>
+  <div class="tm-bg-gray tm-share-box">
+    <div class="text-center">
+      <a href="/post/edit_post/<%= post._id %>" class="btn btn-primary p-0 mb-4 tm-btn-animate tm-btn-download tm-icon-download"><span>Update Post</span></a>	
+    </div>	
+    <div class="text-center">
+      <a href="/post/<%= post._id %>?_method=DELETE" onclick="return confirm('ARE YOU SURE?')" class="btn btn-danger p-0 tm-btn-animate tm-btn-download tm-icon-download"><span>Delete Post</span></a>	
+    </div>								
+  </div>
 
   <hr>
 
